@@ -21,10 +21,10 @@ except:
   sys.exit()
 try:
   if os == "Windows":
-    os.system('cls & title [Seesh Nuker] - Starting & mode 69,20') 
+    os.system('cls & title [Palalight] - Starting & mode 69,20') 
 except:
     os.system('clear')
-    os.system('title [Seesh Nuker] - Starting & mode 69,20')
+    os.system('title [Palalight] - Starting & mode 69,20')
 
 try:
     with open('data/config.json') as f:
@@ -347,12 +347,12 @@ class Seesh:
 async def menu():
     os.system(f'cls & mode 85,20 & title [Seesh Nuker] - Connected: {client.user}')
     print(f'''{Fore.LIGHTRED_EX}
-░██████╗███████╗███████╗░██████╗██╗░░██╗
-██╔════╝██╔════╝██╔════╝██╔════╝██║░░██║
-╚█████╗░█████╗░░█████╗░░╚█████╗░███████║
-░╚═══██╗██╔══╝░░██╔══╝░░░╚═══██╗██╔══██║
-██████╔╝███████╗███████╗██████╔╝██║░░██║
-╚═════╝░╚══════╝╚══════╝╚═════╝░╚═╝░░╚═╝
+░█    \033[91m██████╗  █████╗ ██╗      █████╗ ██╗     ██╗ ██████╗ ██╗  ██╗████████╗
+      \033[95m██╔══██╗██╔══██╗██║     ██╔══██╗██║     ██║██╔════╝ ██║  ██║╚══██╔══╝
+      \033[91m██████╔╝███████║██║     ███████║██║     ██║██║  ███╗███████║   ██║
+      \033[95m██╔═══╝ ██╔══██║██║     ██╔══██║██║     ██║██║   ██║██╔══██║   ██║
+      \033[91m██║     ██║  ██║███████╗██║  ██║███████╗██║╚██████╔╝██║  ██║   ██║
+      \033[95m╚═╝     ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝
 {Style.BRIGHT}''')
     print(f'''{Fore.RED} Choose Your Option Below :- {Style.BRIGHT}''')
     print(f'\033[37m[\x1b[38;5;113m1\033[37m] \033[37m Ban Members     \x1b[38;5;213m')
